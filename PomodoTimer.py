@@ -2,7 +2,7 @@ import time
 import datetime
 
 #Function for 25 minute timer with countdown
-def promodoro():
+def pomodoro():
     print('Welcome to the Promodoro Timer!\n'
           'This timer is set for 25 minute intervals,'
           '\nwith 5 minute breaks!\nAfter 4 25 minute intervals and breaks,' 
@@ -25,11 +25,10 @@ def promodoro():
                     print('Ding! Nice job. Go take a 5 minute break!')
             #Time stamp for referencing how long you've been going.
             print(datetime.datetime.now())
-            #300 = 5 min
-            print('Take a 5 minute break!')
+            #300 = 5 minutes
             time.sleep(300)
         print('15 minute break time! Go find taquitos!')
         #900 seconds = 15 minutes
         time.sleep(900)
         
-promodoro()
+pomodoro()
