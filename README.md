@@ -1,6 +1,6 @@
 # PromodoroTimer
 
-PomodoroTimer.py is a simple Promodoro Timer with a countdown function.
+PomodoroTimer.py and Pomodoro.go are simple Promodoro Timers with a countdown function.
 Four 25 minute blocks with 5 minute rests after each block, and one 15 minute rest when the 4th block is completed. 
 The cycle is then repeated.
 
